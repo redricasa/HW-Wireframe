@@ -2,15 +2,26 @@
 header{
     padding: 25px;
     margin-bottom:10px;
-    background-color:#ebebeb;
+    background:#ebebeb;
     color: #777;
     text-align: center;
 }
+/*nav*/
+.nav{
+    background: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 10px;
+}
 
+
+
+/*footer*/
 footer{
     padding: 25px;
     margin-bottom: 5px;
-    background-color: #ebebeb;
+    background: #ebebeb;
     color:#777;
     text-align: center;
 }
