@@ -3,4 +3,14 @@ header{
     padding: 25px;
     margin-bottom:10px;
     background-color:#ebebeb;
+    color: #777;
+    text-align: center;
+}
+
+footer{
+    padding: 25px;
+    margin-bottom: 5px;
+    background-color: #ebebeb;
+    color:#777;
+    text-align: center;
 }
