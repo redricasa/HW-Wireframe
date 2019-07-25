@@ -1,3 +1,12 @@
+/*body*/
+Body{
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
 /*header*/
 header{
     padding: 25px;
@@ -5,17 +14,22 @@ header{
     background:#ebebeb;
     color: #777;
     text-align: center;
+    width:960px;
+    /*add a margin on the left of the block to keep it in the center of the screen*/
+    margin-left: 130px;
 }
-/*nav*/
+/*nav- */
 .nav{
     background: #ebebeb;
     color: #777;
     text-align: center;
     padding: 25px;
     margin-bottom: 10px;
+    width:960px;
+    /*make into a block so it's not float left*/
+    display: block;
+    margin-left: 130px;
 }
-
-
 
 /*footer*/
 footer{
@@ -24,4 +38,6 @@ footer{
     background: #ebebeb;
     color:#777;
     text-align: center;
+    width: 960px;
+    margin-left: 130px;
 }
