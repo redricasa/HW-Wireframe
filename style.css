@@ -24,7 +24,7 @@ header{
     color: #777;
     text-align: center;
     padding: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width:960px;
     /*make into a block so it's not float left*/
     display: block;
@@ -32,15 +32,16 @@ header{
 }
 /*middle class is the section between nav and footer*/
 .middle{
-    height:200px;
-    margin-left: 130px;
+    height:350px;
+    padding-left: 130px;
+    margin-bottom: 10px;
 }
 .section{
     background:green;
     padding:40px;
     color:yellow;
     display:inline-block;
-    float: right;
+    float: left;
     width: 250px;
     height: 250px;
 }
