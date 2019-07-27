@@ -45,6 +45,11 @@ header{
     width: 250px;
     height: 250px;
 }
+.article{
+    background:gold;
+    color:grey;
+    padding:90px;
+}
 .aside{
     width:250px;
     height:250;

@@ -19,28 +19,38 @@
 <!--add the middle section both elements have to be inline
     : 'section' and aside first, <seciton> is a block level element
     on another note, in line elements can't have height therefore, have both aside 
-    and section in a block element= class of 'middle'-->
+    and section in a block element= class of 'middle'
+    display: in-line block solves the issue!-->
 
 <div class="middle">
 
-<section class="section">
-    section
-
-<div class="article">
+    <section class="section">
+        section
+<!--within 'section', add 'article'-->
+        <div class="article">
     article
-</div>
+<!--within 'article' add two blocks : 'h1,h2,h3' and 'p'-->
+            <div class="h's">
+            <!--bold 'h1,h2,h3'-->
+            <strong>h1,h2,h3</strong>
+            </div>
+            <div class="p">
+            p
+            </div>
 
-</section>
+        </div>
+
+    </section>
 <!--aside float right by itself. 
 hint: <aside> is a block level element-->
-<section class="aside">
+    <div class="aside">
     aside
-</section>
+    </div>
 </div>
-<!--within 'section', add 'article'-->
 
-<!--within 'article' add two blocks : 'h1,h2,h3' and 'p'-->
-<!--bold 'h1,h2,h3'-->
+
+
+
 
 
 <!--footer-->
