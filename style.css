@@ -30,7 +30,29 @@ header{
     display: block;
     margin-left: 130px;
 }
-
+/*middle class is the section between nav and footer*/
+.middle{
+    height:200px;
+    margin-left: 130px;
+}
+.section{
+    background:green;
+    padding:40px;
+    color:yellow;
+    display:inline-block;
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+.aside{
+    width:250px;
+    height:250;
+    background:yellow;
+    padding:45px;
+    color:navy;
+    float: right; 
+    display:inline-block;
+}
 /*footer*/
 footer{
     padding: 25px;
