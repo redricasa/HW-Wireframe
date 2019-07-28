@@ -36,11 +36,11 @@ header{
     padding-left: 130px;
     margin-bottom: 10px;
     width: 1010px;
+    text-align: center;
 }
 .section{
-    background:green;
+    background:#ebebeb;
     padding:45px;
-    color:yellow;
     display:inline-block;
     float: left;
     width: 480px;
@@ -48,30 +48,32 @@ header{
 }
 /*article needs to move more to the left to have an even distance with the outside box(section)*/
 .article{
-    background:gold;
-    color:grey;
+    background: #777;
+    color:#ebebeb;
     width:450px;
     padding:30px;
-    height:200px;
+    height:150px;
 }
 /*hs and p are contained inside article and their margins are limited accordingly*/
 .hs{
-    padding:30px;
+    padding:15px;
     background:#ebebeb;
     width:400px;
     margin-bottom:10px;
+    color:#777;
 }
 .p{
-    padding:30px;
+    padding:15px;
     background:#ebebeb;
     width:400px;
+    color:#777;
 }
 .aside{
     width:330px;
     height:250px;
-    background:gold;
+    background:#ebebeb;
     padding:45px;
-    color:navy;
+    color:#777;
     float: right; 
     display:inline-block;        
 }
