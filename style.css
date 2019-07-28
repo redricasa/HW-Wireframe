@@ -53,7 +53,8 @@ header{
     width:450px;
     padding:30px;
     height:150px;
-    margin: 20px 0px 140px 0px;
+    margin-top:50px;
+    margin-right:50px;
 }
 /*hs and p are contained inside article and their margins are limited accordingly*/
 .hs{
