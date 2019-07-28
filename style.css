@@ -46,24 +46,25 @@ header{
     width: 480px;
     height: 250px;
 }
+/*article needs to move more to the left to have an even distance with the outside box(section)*/
 .article{
     background:gold;
     color:grey;
-    width:400px;
-    padding:70px;
+    width:450px;
+    padding:30px;
+    height:200px;
 }
+/*hs and p are contained inside article and their margins are limited accordingly*/
 .hs{
-    padding:5px;
+    padding:30px;
     background:#ebebeb;
-    color:darkgrey;
     width:400px;
-
+    margin-bottom:10px;
 }
 .p{
-    padding:5px;
+    padding:30px;
     background:#ebebeb;
-    color:darkgrey;
-    margin:
+    width:400px;
 }
 .aside{
     width:330px;
@@ -74,13 +75,13 @@ header{
     float: right; 
     display:inline-block;        
 }
-/*footer*/
+/*footer- limit width to 10px less than nav and header*/
 footer{
     padding: 30px;
     margin-bottom: 5px;
     background: #ebebeb;
     color:#777;
     text-align: center;
-    width: 960px;
+    width: 950px;
     margin-left: 130px;
 }
