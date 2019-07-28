@@ -56,13 +56,15 @@ header{
     margin-top:50px;
     margin-right:50px;
 }
-/*hs and p are contained inside article and their margins are limited accordingly*/
+/*hs and p are contained inside article and their margins are limited accordingly- 
+moved both hs and p down by adding margin-top to hs*/
 .hs{
     padding:15px;
     background:#ebebeb;
     width:430px;
     margin-bottom:10px;
     color:#777;
+    margin-top:30px;
 }
 .p{
     padding:15px;
