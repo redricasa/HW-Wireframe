@@ -53,19 +53,20 @@ header{
     width:450px;
     padding:30px;
     height:150px;
+    margin: 20px 0px 140px 0px;
 }
 /*hs and p are contained inside article and their margins are limited accordingly*/
 .hs{
     padding:15px;
     background:#ebebeb;
-    width:400px;
+    width:430px;
     margin-bottom:10px;
     color:#777;
 }
 .p{
     padding:15px;
     background:#ebebeb;
-    width:400px;
+    width:430px;
     color:#777;
 }
 .aside{
