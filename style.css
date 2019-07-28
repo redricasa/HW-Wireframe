@@ -35,33 +35,48 @@ header{
     height:350px;
     padding-left: 130px;
     margin-bottom: 10px;
+    width: 1010px;
 }
 .section{
     background:green;
-    padding:40px;
+    padding:45px;
     color:yellow;
     display:inline-block;
     float: left;
-    width: 250px;
+    width: 480px;
     height: 250px;
 }
 .article{
     background:gold;
     color:grey;
-    padding:90px;
+    width:400px;
+    padding:70px;
+}
+.hs{
+    padding:5px;
+    background:#ebebeb;
+    color:darkgrey;
+    width:400px;
+
+}
+.p{
+    padding:5px;
+    background:#ebebeb;
+    color:darkgrey;
+    margin:
 }
 .aside{
-    width:250px;
-    height:250;
-    background:yellow;
+    width:330px;
+    height:250px;
+    background:gold;
     padding:45px;
     color:navy;
     float: right; 
-    display:inline-block;
+    display:inline-block;        
 }
 /*footer*/
 footer{
-    padding: 25px;
+    padding: 30px;
     margin-bottom: 5px;
     background: #ebebeb;
     color:#777;
